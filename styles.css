@@ -1,0 +1,44 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+body {
+    color: white;
+    background-color: #fca652;
+}
+
+button {
+    border: none;
+    background-color: #fca652;
+    color: white;
+    /* border: white solid; */
+    /* border-radius: 20px; */
+    margin: 20px;
+}
+
+
+/* button:hover {
+    color: white;
+    background-color: #ffd57e;
+    transition: linear 200ms;
+} */
+
+button:focus {
+    outline: none;
+}
+
+p {
+    font-size: 8rem;
+}
+
+.botones {
+    display: inline;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.numeros {
+    display: inline-block;
+    font-size: 10rem;
+}
